@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZONA NORTE - Turismo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-900 text-white p-6">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <!-- Logo -->
+      <div class="text-2xl font-bold tracking-wide d-block">
+        <img src="./assets/img/logoNider.jpg" alt="Logo Nider" style="width: 2em;height: 2em;border-radius: 4em;">ZONA NORTE
+      </div>
+      <!-- Menu -->
+      <nav class="space-x-4 text-lg">
+        <a href="#servicios" class="hover:underline">Servicios</a>
+        <a href="#destinos" class="hover:underline">Destinos</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-100 py-20 text-center">
+    <div class="max-w-3xl mx-auto">
+        <img src="./assets/img/bgNorte.jpg" alt="Logo Nider" class="mx-auto mb-2" style="border-radius: 4em;">
+      <h1 class="text-5xl font-bold mb-6">Explora lo mejor del norte de Chile</h1>
+      <p class="text-xl mb-8">Viajes personalizados, aventuras inolvidables y paisajes únicos con ZONA NORTE.</p>
+      <a href="#contacto" class="bg-blue-900 text-white px-6 py-3 rounded-xl text-lg hover:bg-blue-800 transition">¡Contáctanos ahora!</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-semibold mb-12">Nuestros Servicios</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 shadow-lg rounded-2xl">
+          <h3 class="text-2xl font-bold mb-4">Tours Guiados</h3>
+          <p>Recorre los mejores destinos con guías expertos de la zona.</p>
+        </div>
+        <div class="p-6 shadow-lg rounded-2xl">
+          <h3 class="text-2xl font-bold mb-4">Transporte Privado</h3>
+          <p>Viajes cómodos y seguros para grupos grandes o pequeños.</p>
+        </div>
+        <div class="p-6 shadow-lg rounded-2xl">
+          <h3 class="text-2xl font-bold mb-4">Paquetes Personalizados</h3>
+          <p>Organizamos tu viaje a medida para que vivas la mejor experiencia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinos -->
+  <section id="destinos" class="py-16 bg-blue-50">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-semibold mb-12">Destinos Populares</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white shadow-md rounded-xl overflow-hidden">
+          <img src="./assets/img/volcan-licancabur.jpg" alt="Montañas" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Volcán Licancabur</h3>
+            <p class="text-sm mt-2">Impresionantes vistas y aire puro.</p>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-xl overflow-hidden">
+          <img src="./assets/img/geysers-del-tatio.jpg" alt="Playa" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Geysers del tatio</h3>
+            <p class="text-sm mt-2">Maravilla de la naturaleza.</p>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-xl overflow-hidden">
+          <img src="./assets/img/chile-valle-luna.jpg" alt="Desierto" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold">Desierto Místico</h3>
+            <p class="text-sm mt-2">Un viaje espiritual entre dunas doradas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 bg-white">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-4xl font-semibold mb-6">Contáctanos</h2>
+      <p class="mb-6">¿Listo para tu próxima aventura? Rellena el formulario y nos pondremos en contacto contigo.</p>
+      <form class="space-y-4">
+        <input type="text" placeholder="Nombre" class="w-full p-3 border border-gray-300 rounded-xl">
+        <input type="email" placeholder="Correo Electrónico" class="w-full p-3 border border-gray-300 rounded-xl">
+        <textarea placeholder="Mensaje" class="w-full p-3 border border-gray-300 rounded-xl h-32"></textarea>
+        <button type="submit" class="bg-blue-900 text-white px-6 py-3 rounded-xl hover:bg-blue-800 transition">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-4">
+    <p>&copy; 2025 ZONA NORTE. Todos los derechos reservados.</p>
+    <p>Escuela Nider Orrego Quevedo - 5to B</p>
+  </footer>
+</body>
+</html>
